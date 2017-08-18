@@ -27,6 +27,7 @@ void imprime (Lista* l){
 
 int main(){
     Lista* l;
+    Lista* n;
     l = inicializa();
 
     l = insere(l, 1);
@@ -36,6 +37,12 @@ int main(){
     l = insere(l, 3);
 
     imprime(l);
+
+    n = inicializa();
+
+
+
+
 
 
 
